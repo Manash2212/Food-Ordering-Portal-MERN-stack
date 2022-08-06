@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-top: 50px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  margin-top: 20px;
+}
+
+.item {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(167, 156, 156);
+  border: 1px solid lawngreen;
+  border-radius: 10px;
+  position: inherit;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 2px 2px red, 0.5em -0.5em .4em rgb(78, 99, 87);
+}
